@@ -1,0 +1,69 @@
+@font-face { font-family: dseg7classic; src: url(/Font/DSEG7Classic-Bold.ttf); }
+
+body {
+    margin: 0;
+    padding: 0 40px;
+    background: #1B244A;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    margin: 0 auto 21px auto;    
+}
+
+p {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    padding-top: 20PX;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 68px auto 0;
+    
+}
+
+.section {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin: 0 auto;
+    
+}
+
+.score-bg {
+    margin-top: 0 ;
+    width: 155px;
+    height: 120px;
+    background:  #080001;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.btn {
+    width: fit-content;
+    height: 45px;
+    padding: 4px 12px;
+    margin: 26px 3px;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+}
+
+.options {
+    margin: 0;
+}
